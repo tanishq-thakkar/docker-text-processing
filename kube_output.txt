@@ -1,0 +1,4 @@
+NAME                             READY   STATUS             RESTARTS      AGE
+my-python-app-5f8d546d94-pm8wr   0/1     Completed          2 (25s ago)   26s
+my-python-app-5f8d546d94-pq59w   0/1     CrashLoopBackOff   3 (34s ago)   83s
+my-python-app-5f8d546d94-q5scp   0/1     CrashLoopBackOff   3 (38s ago)   83s
