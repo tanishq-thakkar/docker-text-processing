@@ -19,7 +19,7 @@ output_file = os.path.join(os.path.dirname(list(input_files.values())[0]), "outp
 def process_text(filename, handle_contractions=False):
     with open(filename, "r", encoding="utf-8") as file:
         text = file.read().lower()
-        text = re.sub(r"[^\w\s']", " ", text)  
+        text = re.sub(r"[^\w\s']", " ", text)
         words = text.split()
 
         if handle_contractions:
@@ -35,7 +35,7 @@ def process_text(filename, handle_contractions=False):
             expanded_words = []
             for word in words:
                 if word in contractions:
-                    expanded_words.extend(contractions[word].split())  
+                    expanded_words.extend(contractions[word].split())
                 else:
                     expanded_words.append(word)
 
@@ -55,7 +55,6 @@ for name, path in input_files.items():
         top_words[name] = Counter(words).most_common(3)
 
 grand_total = sum(word_counts.values())
-
 ip_address = socket.gethostbyname(socket.gethostname())
 
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
