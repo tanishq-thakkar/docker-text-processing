@@ -1,0 +1,6 @@
+Total words in /Users/tanishq/Downloads/Proj 3 Cloud/IF-1.txt: 301
+Total words in /Users/tanishq/Downloads/Proj 3 Cloud/AlwaysRememberUsThisWay-1.txt: 223
+Grand Total words: 524
+Top 3 words in IF-1.txt: [('you', 20), ('and', 20), ('if', 14)]
+Top 3 words in AlwaysRememberUsThisWay-1.txt: [('i', 15), ('the', 13), ('and', 8)]
+Container IP Address: 192.168.1.198
